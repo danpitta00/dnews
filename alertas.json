@@ -1,0 +1,8 @@
+{
+  "_leia": "Alertas do D.News: ficam só no sistema (fila no painel + som). Nada é enviado para fora.",
+  "ativo": true,
+  "limiar": 0.7,
+  "som_windows": true,
+  "silencio": {"de": "23:00", "ate": "07:00"},
+  "painel_url": "http://localhost:8790"
+}

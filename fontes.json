@@ -1,0 +1,740 @@
+{
+  "_leia": "Fontes do coletor automático (sem custo, sem chave). Editar à vontade: o coletor relê a cada rodada. 'exige' = pelo menos um desses termos tem que aparecer no título/resumo (início de palavra, sem acento importa pouco: use a raiz). Temas vêm de contextos/radar_temas.md.",
+  "google_news": [
+    {
+      "q": "\"Dayse Amarilio\"",
+      "pilar": "Menções",
+      "exige": [
+        "dayse",
+        "amarilio",
+        "amarílio"
+      ]
+    },
+    {
+      "q": "\"Dayse Amarílio\"",
+      "pilar": "Menções",
+      "exige": [
+        "dayse",
+        "amarilio",
+        "amarílio"
+      ]
+    },
+    {
+      "q": "concurso SES-DF",
+      "pilar": "Saúde",
+      "exige": [
+        "ses-df",
+        "secretaria de saúde",
+        "saúde do df"
+      ]
+    },
+    {
+      "q": "Secretaria de Saúde DF nomeação OR déficit OR servidores",
+      "pilar": "Saúde",
+      "exige": [
+        "ses-df",
+        "secretaria de saúde",
+        "saúde do df",
+        "saúde pública do df"
+      ]
+    },
+    {
+      "q": "UPA Distrito Federal superlotação OR fila OR falta",
+      "pilar": "Saúde",
+      "exige": [
+        "upa",
+        "upas",
+        "pronto-socorro",
+        "emergência"
+      ]
+    },
+    {
+      "q": "enfermagem DF agressão OR violência OR piso",
+      "pilar": "Saúde",
+      "exige": [
+        "enfermag",
+        "enfermeir",
+        "técnica de enfermagem",
+        "técnico de enfermagem"
+      ]
+    },
+    {
+      "q": "Coren-DF OR SindEnfermeiro-DF",
+      "pilar": "Saúde",
+      "exige": [
+        "coren",
+        "sindenfermeiro"
+      ]
+    },
+    {
+      "q": "\"PEC 19\" enfermagem OR \"piso da enfermagem\"",
+      "pilar": "Saúde",
+      "exige": [
+        "pec 19",
+        "piso",
+        "enfermag"
+      ]
+    },
+    {
+      "q": "Iges-DF OR HRGu OR HMIB OR \"Hospital de Base\" OR \"Hospital Regional\" DF",
+      "pilar": "Saúde",
+      "exige": [
+        "iges",
+        "hrgu",
+        "hmib",
+        "hospital"
+      ]
+    },
+    {
+      "q": "MPDFT OR TCDF saúde fila OR cirurgia OR contrato",
+      "pilar": "Saúde",
+      "exige": [
+        "mpdft",
+        "tcdf",
+        "ministério público",
+        "tribunal de contas"
+      ]
+    },
+    {
+      "q": "dengue Distrito Federal casos",
+      "pilar": "Saúde",
+      "exige": [
+        "dengue",
+        "chikungunya",
+        "aedes"
+      ]
+    },
+    {
+      "q": "Guará DF",
+      "pilar": "Guará",
+      "exige": [
+        "guará",
+        "guara"
+      ]
+    },
+    {
+      "q": "\"UPA do Guará\" OR \"Hospital Ortopédico\" Guará",
+      "pilar": "Guará",
+      "exige": [
+        "guará",
+        "guara",
+        "ortopédico"
+      ]
+    },
+    {
+      "q": "feminicídio Distrito Federal OR DF",
+      "pilar": "Mulheres",
+      "exige": [
+        "feminic"
+      ]
+    },
+    {
+      "q": "violência contra a mulher DF OR Brasília",
+      "pilar": "Mulheres",
+      "exige": [
+        "violência contra a mulher",
+        "violência doméstica",
+        "maria da penha",
+        "medida protetiva",
+        "feminic"
+      ]
+    },
+    {
+      "q": "violência obstétrica OR maternidade OR gestante DF",
+      "pilar": "Mulheres",
+      "exige": [
+        "obstétric",
+        "matern",
+        "gestante",
+        "parto",
+        "prematur"
+      ]
+    },
+    {
+      "q": "violência psicológica OR patrimonial OR sexual OR digital mulher DF",
+      "pilar": "Mulheres",
+      "exige": [
+        "violência psicológica",
+        "violência patrimonial",
+        "violência sexual",
+        "estupro",
+        "violência digital",
+        "assédio"
+      ]
+    },
+    {
+      "q": "mortalidade materna OR pré-natal OR \"saúde da mulher\" Distrito Federal",
+      "pilar": "Mulheres",
+      "exige": [
+        "mortalidade materna",
+        "pré-natal",
+        "saúde da mulher",
+        "materna"
+      ]
+    },
+    {
+      "q": "Secretaria da Mulher DF OR \"Casa da Mulher Brasileira\" Brasília",
+      "pilar": "Mulheres",
+      "exige": [
+        "secretaria da mulher",
+        "casa da mulher",
+        "mulheres"
+      ]
+    },
+    {
+      "q": "creche OR \"mães solo\" OR \"economia do cuidado\" DF",
+      "pilar": "Mulheres",
+      "exige": [
+        "creche",
+        "mães solo",
+        "mãe solo",
+        "cuidado"
+      ]
+    },
+    {
+      "q": "\"violência política de gênero\" OR \"mulheres na política\" DF OR CLDF",
+      "pilar": "Mulheres",
+      "exige": [
+        "violência política",
+        "mulheres na política",
+        "deputadas",
+        "parlamentares"
+      ]
+    },
+    {
+      "q": "Câmara Legislativa DF saúde OR orçamento OR LOA",
+      "pilar": "Política e orçamento",
+      "exige": [
+        "cldf",
+        "câmara legislativa",
+        "distrital",
+        "distritais"
+      ]
+    },
+    {
+      "q": "Celina Leão saúde OR UPA OR hospital",
+      "pilar": "Política e orçamento",
+      "exige": [
+        "saúde",
+        "upa",
+        "hospital",
+        "cirurgia"
+      ]
+    },
+    {
+      "q": "DODF nomeação saúde OR \"regulamenta a lei\"",
+      "pilar": "Política e orçamento",
+      "exige": [
+        "dodf",
+        "diário oficial",
+        "regulament",
+        "nomeaç"
+      ]
+    },
+    {
+      "_bloco": "ÓRGÃOS DO DF (todos os sites .df.gov.br: secretarias, administrações regionais, Agência Brasília, CLDF, TCDF, PCDF, PMDF, CBMDF, Defensoria, Detran, SLU, Novacap...)"
+    },
+    {
+      "q": "site:df.gov.br",
+      "nome": "Órgãos do GDF (.df.gov.br)",
+      "exige_titulo": "chave",
+      "dominio": "df.gov.br"
+    },
+    {
+      "q": "site:agenciabrasilia.df.gov.br",
+      "nome": "Agência Brasília",
+      "exige_titulo": "chave",
+      "dominio": "agenciabrasilia.df.gov.br"
+    },
+    {
+      "q": "site:cl.df.gov.br",
+      "nome": "CLDF (notícias)",
+      "pilar": "Política e orçamento",
+      "exige_titulo": "chave",
+      "dominio": "cl.df.gov.br"
+    },
+    {
+      "q": "site:mpdft.mp.br",
+      "nome": "MPDFT",
+      "exige_titulo": "chave",
+      "dominio": "mpdft.mp.br"
+    },
+    {
+      "q": "site:tjdft.jus.br",
+      "nome": "TJDFT",
+      "exige_titulo": "chave",
+      "dominio": "tjdft.jus.br"
+    },
+    {
+      "q": "site:tc.df.gov.br",
+      "nome": "TCDF",
+      "pilar": "Política e orçamento",
+      "exige_titulo": "chave",
+      "dominio": "tc.df.gov.br"
+    },
+    {
+      "q": "site:igesdf.org.br",
+      "nome": "Iges-DF",
+      "pilar": "Saúde",
+      "dominio": "igesdf.org.br"
+    },
+    {
+      "q": "site:coren-df.gov.br",
+      "nome": "Coren-DF",
+      "pilar": "Saúde",
+      "dominio": "coren-df.gov.br"
+    },
+    {
+      "q": "site:sindenfdf.com.br OR site:sindsaudedf.org.br",
+      "nome": "Sindicatos da saúde do DF",
+      "pilar": "Saúde",
+      "dominio": "sindenfdf.com.br sindsaudedf.org.br"
+    },
+    {
+      "q": "site:hemocentro.df.gov.br",
+      "nome": "Hemocentro de Brasília",
+      "pilar": "Saúde",
+      "dominio": "hemocentro.df.gov.br"
+    },
+    {
+      "_bloco": "ÓRGÃOS NACIONAIS (entram sem exigir DF, se o título for de saúde, mulheres ou enfermagem)"
+    },
+    {
+      "q": "site:gov.br/saude",
+      "nome": "Ministério da Saúde",
+      "pilar": "Saúde",
+      "nacional": true,
+      "exige_titulo": "Saúde",
+      "dominio": "=gov.br"
+    },
+    {
+      "q": "site:gov.br/anvisa",
+      "nome": "Anvisa",
+      "pilar": "Saúde",
+      "nacional": true,
+      "exige_titulo": "Saúde",
+      "dominio": "=gov.br"
+    },
+    {
+      "q": "site:agenciagov.ebc.com.br saúde",
+      "nome": "Agência Gov",
+      "pilar": "Saúde",
+      "nacional": true,
+      "exige_titulo": "Saúde",
+      "dominio": "agenciagov.ebc.com.br"
+    },
+    {
+      "q": "site:camara.leg.br saúde OR enfermagem OR mulher",
+      "nome": "Agência Câmara",
+      "nacional": true,
+      "exige_titulo": "Saúde+Mulheres",
+      "dominio": "camara.leg.br"
+    },
+    {
+      "q": "site:senado.leg.br saúde OR enfermagem OR mulher",
+      "nome": "Agência Senado",
+      "nacional": true,
+      "exige_titulo": "Saúde+Mulheres",
+      "dominio": "senado.leg.br"
+    },
+    {
+      "q": "site:cofen.gov.br",
+      "nome": "Cofen",
+      "pilar": "Saúde",
+      "nacional": true,
+      "dominio": "cofen.gov.br"
+    },
+    {
+      "q": "site:fiocruz.br",
+      "nome": "Fiocruz",
+      "pilar": "Saúde",
+      "nacional": true,
+      "exige_titulo": "Saúde",
+      "dominio": "fiocruz.br"
+    },
+    {
+      "q": "site:inca.gov.br OR site:conasems.org.br OR site:conass.org.br",
+      "nome": "INCA / Conasems / Conass",
+      "pilar": "Saúde",
+      "nacional": true,
+      "exige_titulo": "Saúde",
+      "dominio": "inca.gov.br conasems.org.br conass.org.br"
+    },
+    {
+      "q": "site:stf.jus.br OR site:stj.jus.br OR site:cnj.jus.br saúde OR mulher OR enfermagem",
+      "nome": "STF / STJ / CNJ",
+      "nacional": true,
+      "exige_titulo": "Saúde+Mulheres",
+      "dominio": "stf.jus.br stj.jus.br cnj.jus.br"
+    },
+    {
+      "q": "site:tcu.gov.br saúde",
+      "nome": "TCU",
+      "pilar": "Saúde",
+      "nacional": true,
+      "exige_titulo": "Saúde",
+      "dominio": "tcu.gov.br"
+    },
+    {
+      "q": "site:gov.br/mulheres",
+      "nome": "Ministério das Mulheres",
+      "pilar": "Mulheres",
+      "nacional": true,
+      "dominio": "=gov.br"
+    }
+  ],
+  "rss": [
+    {
+      "nome": "Metrópoles",
+      "url": "https://www.metropoles.com/feed"
+    },
+    {
+      "nome": "Correio Braziliense",
+      "url": "https://www.correiobraziliense.com.br/feed/"
+    },
+    {
+      "nome": "g1 DF",
+      "url": "https://g1.globo.com/rss/g1/distrito-federal/"
+    },
+    {
+      "nome": "Jornal de Brasília",
+      "url": "https://jornaldebrasilia.com.br/feed/"
+    },
+    {
+      "nome": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml",
+      "nacional": true
+    },
+    {
+      "nome": "Defensoria Pública do DF",
+      "url": "https://www.defensoria.df.gov.br/feed/"
+    },
+    {
+      "nome": "AzMina",
+      "url": "https://azmina.com.br/feed/",
+      "tema": "Mulheres"
+    },
+    {
+      "nome": "Portal Catarinas",
+      "url": "https://catarinas.info/feed/",
+      "tema": "Mulheres"
+    },
+    {
+      "nome": "Alma Preta",
+      "url": "https://almapreta.com.br/feed/",
+      "tema": "Mulheres"
+    },
+    {
+      "nome": "Agência Patrícia Galvão",
+      "url": "https://agenciapatriciagalvao.org.br/feed/",
+      "tema": "Mulheres"
+    },
+    {
+      "nome": "Geledés",
+      "url": "https://www.geledes.org.br/feed/",
+      "tema": "Mulheres"
+    },
+    {
+      "nome": "Nós, Mulheres da Periferia",
+      "url": "https://nosmulheresdaperiferia.com.br/feed/",
+      "tema": "Mulheres"
+    },
+    {
+      "nome": "Blogueiras Negras",
+      "url": "https://blogueirasnegras.org/feed/",
+      "tema": "Mulheres"
+    },
+    {
+      "nome": "Mundo Negro",
+      "url": "https://mundonegro.inf.br/feed/",
+      "tema": "Mulheres"
+    },
+    {
+      "nome": "CFEMEA",
+      "url": "https://www.cfemea.org.br/index.php/pt/?format=feed&type=rss",
+      "tema": "Mulheres"
+    },
+    {
+      "nome": "Inesc",
+      "url": "https://inesc.org.br/feed/",
+      "tema": "Mulheres"
+    },
+    {
+      "nome": "Agência Fiocruz",
+      "url": "https://agencia.fiocruz.br/rss.xml",
+      "tema": "Mulheres"
+    },
+    {
+      "nome": "Agência Brasil · Direitos Humanos",
+      "url": "https://agenciabrasil.ebc.com.br/rss/direitos-humanos/feed.xml",
+      "tema": "Mulheres"
+    },
+    {
+      "nome": "Instituto Sou da Paz",
+      "url": "https://soudapaz.org/feed/",
+      "tema": "Mulheres"
+    }
+  ],
+  "_temas": "Fontes com 'tema' são nacionais/temáticas (base de monitoramento Mulheres da Chris, 15/10/2026): entram sem exigir DF, se o TÍTULO tiver uma palavra de 'palavras_tema' daquele tema.",
+  "palavras_tema": {
+    "Saúde": [
+      "saúde",
+      "sus",
+      "enfermag",
+      "enfermeir",
+      "médic",
+      "hospital",
+      "upa",
+      "upas",
+      "ubs",
+      "vacina",
+      "vacinação",
+      "epidemi",
+      "dengue",
+      "chikungunya",
+      "câncer",
+      "oncolog",
+      "mortalidade",
+      "materna",
+      "gestante",
+      "parto",
+      "medicament",
+      "anvisa",
+      "pec 19",
+      "plano de saúde",
+      "cirurgia",
+      "fila",
+      "atenção primária",
+      "farmácia popular",
+      "mais médicos",
+      "agora tem especialistas",
+      "residência",
+      "saúde mental",
+      "caps",
+      "covid",
+      "influenza",
+      "gripe",
+      "sarampo",
+      "hiv",
+      "aids",
+      "sífilis",
+      "transplante",
+      "doação de sangue",
+      "hemocentro",
+      "urgência",
+      "emergência",
+      "piso da enfermagem",
+      "piso salarial da enfermagem"
+    ],
+    "Mulheres": [
+      "feminic",
+      "violência doméstica",
+      "violência contra a mulher",
+      "violência contra mulheres",
+      "medida protetiva",
+      "medidas protetivas",
+      "violência psicológica",
+      "violência patrimonial",
+      "violência sexual",
+      "estupro",
+      "violência digital",
+      "maria da penha",
+      "rede de proteção",
+      "saúde da mulher",
+      "implanon",
+      "diu",
+      "mortalidade materna",
+      "pré-natal",
+      "câncer de mama",
+      "colo do útero",
+      "saúde menstrual",
+      "dignidade menstrual",
+      "violência obstétrica",
+      "racismo obstétrico",
+      "parto",
+      "gestante",
+      "aborto legal",
+      "violência nas escolas",
+      "cyberbullying",
+      "mulheres negras",
+      "mulheres quilombolas",
+      "mulheres indígenas",
+      "igualdade salarial",
+      "trabalho doméstico",
+      "economia do cuidado",
+      "mães solo",
+      "mãe solo",
+      "creche",
+      "assédio",
+      "violência política de gênero",
+      "paridade",
+      "mulheres na política",
+      "representação feminina",
+      "ods 5",
+      "cedaw",
+      "belém do pará",
+      "lei orçamentária",
+      "orçamento para mulheres",
+      "casa da mulher brasileira",
+      "ligue 180"
+    ]
+  },
+  "youtube": [
+    {
+      "nome": "Dayse Amarilio",
+      "channel_id": "UCcO3PZIJlbSkFgGOtovBJuQ",
+      "proprio": true
+    },
+    {
+      "nome": "Metrópoles",
+      "channel_id": "UCmWCJT9UtdaYluQ67o3RwJQ"
+    },
+    {
+      "nome": "Correio Braziliense",
+      "channel_id": "UCK3U5q7b8U8yffUlblyrpRQ"
+    },
+    {
+      "nome": "Jornal de Brasília",
+      "channel_id": "UCP0TF7DWTJixt1vVYpyN73A"
+    },
+    {
+      "nome": "Secretaria de Saúde do DF",
+      "channel_id": "UCZei97BIZw-Jd3IA4v9bp-A",
+      "aceita_tudo": true,
+      "pilar": "Saúde",
+      "excluir": "EducaSES|\\bAula \\d|\\bCurso\\b|Treinamento|Desengasgo|Agradecimento de fim de ano"
+    },
+    {
+      "nome": "IgesDF",
+      "channel_id": "UCtJhSCvUFySRlK7rg-lgcSA",
+      "aceita_tudo": true,
+      "pilar": "Saúde"
+    },
+    {
+      "nome": "TV Câmara Distrital (CLDF)",
+      "channel_id": "UCq1lyhE02Q9I0x8gBDM9lOQ",
+      "excluir": "Cidadão Honorário|Cidadã Honorária|Sessão Solene|curiosidade de saber"
+    },
+    {
+      "nome": "Ministério da Saúde",
+      "channel_id": "UC12zKGLhMhDeDidoctM6BrA",
+      "aceita_tudo": true,
+      "pilar": "Saúde",
+      "nacional": true
+    },
+    {
+      "nome": "Anvisa",
+      "channel_id": "UC2VC7w3hCUKMhgX7vZyQ1pg",
+      "aceita_tudo": true,
+      "pilar": "Saúde",
+      "nacional": true
+    },
+    {
+      "nome": "Cofen · Somos Enfermagem TV",
+      "channel_id": "UCL41BsrnhsSSXG4zYwqC95g",
+      "aceita_tudo": true,
+      "pilar": "Saúde",
+      "nacional": true
+    },
+    {
+      "nome": "Fiocruz",
+      "channel_id": "UC-6oPovE4wD_dR-Lw-WOadA",
+      "aceita_tudo": true,
+      "pilar": "Saúde",
+      "nacional": true
+    }
+  ],
+  "_youtube": "Canais do documento 'Canais de Saúde para acompanhar' (nov/2026), conferidos em 03/11/2026. 'aceita_tudo' = canal oficial de saúde: entra todo vídeo das últimas 48 h; os demais só com palavra-chave dos temas.",
+  "palavras_chave": [
+    "dayse",
+    "amarilio",
+    "amarílio",
+    "enfermag",
+    "enfermeir",
+    "coren",
+    "sindenfermeiro",
+    "ses-df",
+    "secretaria de saúde",
+    "saúde do df",
+    "saúde pública",
+    "upa",
+    "upas",
+    "hospital",
+    "hrgu",
+    "hmib",
+    "iges",
+    "ubs",
+    "sus",
+    "concurso da saúde",
+    "nomeaç",
+    "piso da enfermagem",
+    "pec 19",
+    "guará",
+    "feminic",
+    "violência contra a mulher",
+    "violência doméstica",
+    "maria da penha",
+    "medida protetiva",
+    "obstétric",
+    "parto",
+    "gestante",
+    "maternidade",
+    "prematur",
+    "dengue",
+    "chikungunya",
+    "cldf",
+    "câmara legislativa",
+    "deputada distrital",
+    "deputado distrital",
+    "loa",
+    "tcdf",
+    "mpdft",
+    "dodf",
+    "fila de cirurgia",
+    "cirurgias eletivas",
+    "idosos",
+    "autis",
+    "alagamento"
+  ],
+  "fontes_df": [
+    "metrópoles",
+    "correio braziliense",
+    "jornal de brasília",
+    "agência brasília",
+    "secretaria de saúde do distrito federal",
+    "soubrasilia",
+    "sou brasília",
+    "df soberano",
+    "acorda df",
+    "jornal do guará",
+    "folha do guará",
+    "portal do val",
+    "tv brasília",
+    "cldf",
+    "câmara legislativa",
+    "mpdft",
+    "tcdf",
+    "rádio corredor",
+    "agita brasília",
+    "g1 df",
+    "brasília"
+  ],
+  "palavras_df": [
+    "df",
+    "distrito federal",
+    "brasília",
+    "brasilia",
+    "guará",
+    "ceilândia",
+    "taguatinga",
+    "samambaia",
+    "gama",
+    "planaltina",
+    "sobradinho",
+    "riacho fundo",
+    "recanto das emas",
+    "cldf",
+    "gdf",
+    "ses-df"
+  ]
+}

@@ -1,0 +1,388 @@
+{
+ "_leia": "Trilhas de notícia do D.News: cada assunto vira uma linha do tempo com tudo que os portais publicaram. 'buscas' vão para o Google News; 'exige' = pelo menos um termo no título ou resumo. Acrescente trilhas aqui (o radar das 7h também pode propor). 'ativa': false arquiva.",
+ "trilhas": [
+  {
+   "id": "urologia",
+   "titulo": "Fila da urologia: plano exigido pela Justiça",
+   "pilar": "Saúde",
+   "fio": true,
+   "buscas": [
+    "urologia fila DF",
+    "urologia MPDFT OR Prosus",
+    "urologia \"Distrito Federal\" pacientes"
+   ],
+   "exige": [
+    "urolog"
+   ],
+   "exige_tambem": [
+    "fila",
+    "plano",
+    "justiça",
+    "mpdft",
+    "prosus",
+    "pacientes",
+    "espera"
+   ]
+  },
+  {
+   "id": "lei-7934",
+   "titulo": "Violência contra profissionais de saúde e a Lei 7.934",
+   "pilar": "Saúde",
+   "fio": true,
+   "buscas": [
+    "\"Lei 7.934\"",
+    "agressão técnica de enfermagem DF",
+    "violência profissionais de saúde DF UPA",
+    "Coren-DF agressão"
+   ],
+   "exige": [
+    "7.934",
+    "agred",
+    "agress",
+    "violência contra profissionais",
+    "botão de pânico",
+    "estrangul",
+    "ataque"
+   ],
+   "exige_tambem": [
+    "@df",
+    "7.934"
+   ]
+  },
+  {
+   "id": "concurso-ses",
+   "titulo": "Concurso da SES-DF",
+   "pilar": "Saúde",
+   "fio": true,
+   "buscas": [
+    "concurso SES-DF",
+    "concurso Secretaria de Saúde DF edital",
+    "concurso saúde DF Cebraspe"
+   ],
+   "exige": [
+    "concurso"
+   ],
+   "exige_tambem": [
+    "ses-df",
+    "secretaria de saúde",
+    "saúde do df",
+    "saúde df"
+   ]
+  },
+  {
+   "id": "deficit-ses",
+   "titulo": "Déficit de profissionais na saúde do DF",
+   "pilar": "Saúde",
+   "buscas": [
+    "déficit profissionais saúde DF",
+    "falta de médicos DF",
+    "MPDFT déficit saúde DF",
+    "nomeações saúde DF"
+   ],
+   "exige": [
+    "déficit",
+    "falta de médicos",
+    "falta de profissionais",
+    "nomeaç",
+    "servidores",
+    "vagos"
+   ],
+   "exige_tambem": [
+    "@df"
+   ]
+  },
+  {
+   "id": "upa-guara",
+   "titulo": "UPA do Guará",
+   "pilar": "Guará",
+   "fio": true,
+   "buscas": [
+    "\"UPA do Guará\"",
+    "UPA Guará II obra"
+   ],
+   "exige": [
+    "guará",
+    "guara"
+   ],
+   "exige_tambem": [
+    "@df"
+   ]
+  },
+  {
+   "id": "ortopedico-guara",
+   "titulo": "Hospital Ortopédico do Guará",
+   "pilar": "Guará",
+   "fio": true,
+   "buscas": [
+    "\"Hospital Ortopédico\" Guará",
+    "hospital ortopédico DF TCDF"
+   ],
+   "exige": [
+    "ortopédico"
+   ],
+   "exige_tambem": [
+    "@df"
+   ]
+  },
+  {
+   "id": "loa-2027",
+   "titulo": "LOA 2027 e o orçamento da saúde",
+   "pilar": "Política e orçamento",
+   "fio": true,
+   "buscas": [
+    "LOA 2027 CLDF",
+    "\"Orçamento Anual 2027\" Distrito Federal",
+    "orçamento 2027 DF saúde"
+   ],
+   "exige": [
+    "loa",
+    "orçamento",
+    "ploa"
+   ],
+   "exige_tambem": [
+    "@df",
+    "cldf",
+    "distrital"
+   ]
+  },
+  {
+   "id": "pec-19",
+   "titulo": "PEC 19 e o piso da enfermagem",
+   "pilar": "Saúde",
+   "fio": true,
+   "buscas": [
+    "\"PEC 19\" enfermagem",
+    "\"piso da enfermagem\"",
+    "enfermagem 30 horas OR 36 horas Senado"
+   ],
+   "exige": [
+    "pec 19",
+    "piso",
+    "enfermagem"
+   ],
+   "exige_tambem": [
+    "enfermag"
+   ]
+  },
+  {
+   "id": "feminicidio-df",
+   "titulo": "Feminicídios no DF",
+   "pilar": "Mulheres",
+   "buscas": [
+    "feminicídio DF",
+    "feminicídio Distrito Federal",
+    "feminicídio Brasília"
+   ],
+   "exige": [
+    "feminic"
+   ],
+   "exige_tambem": [
+    "@df"
+   ]
+  },
+  {
+   "id": "promessas-celina",
+   "titulo": "Promessas de saúde do GDF (novo mandato)",
+   "pilar": "Política e orçamento",
+   "fio": true,
+   "buscas": [
+    "Celina Leão saúde promessa",
+    "Celina Leão UPAs cirurgias",
+    "Celina Leão secretário de saúde"
+   ],
+   "exige": [
+    "saúde",
+    "upa",
+    "cirurgia",
+    "hospital",
+    "secretári"
+   ],
+   "exige_tambem": [
+    "celina"
+   ]
+  },
+  {
+   "id": "dengue-df",
+   "titulo": "Dengue no DF",
+   "pilar": "Saúde",
+   "buscas": [
+    "dengue DF casos",
+    "dengue Distrito Federal vacinação"
+   ],
+   "exige": [
+    "dengue"
+   ],
+   "exige_tambem": [
+    "@df"
+   ]
+  },
+  {
+   "id": "santa-marta-cameras",
+   "titulo": "Câmeras no repouso da enfermagem (Hospital Santa Marta)",
+   "pilar": "Saúde",
+   "buscas": [
+    "\"Santa Marta\" hospital câmeras",
+    "câmeras repouso enfermagem",
+    "Hospital Santa Marta enfermagem"
+   ],
+   "exige": [
+    "santa marta",
+    "câmera",
+    "repouso"
+   ],
+   "exige_tambem": [
+    "@df",
+    "hospital santa marta",
+    "taguatinga"
+   ]
+  },
+  {
+   "id": "hrpl-planaltina",
+   "titulo": "Pronto-socorro do Hospital de Planaltina",
+   "pilar": "Saúde",
+   "fio": true,
+   "buscas": [
+    "Hospital de Planaltina espera",
+    "HRPl pronto-socorro",
+    "\"Hospital Regional de Planaltina\""
+   ],
+   "exige": [
+    "planaltina",
+    "hrpl"
+   ],
+   "exige_tambem": [
+    "hospital",
+    "pronto-socorro",
+    "emergência",
+    "espera",
+    "atendimento"
+   ]
+  },
+  {
+   "id": "cancer-mama-df",
+   "titulo": "Demora no tratamento do câncer de mama no DF (Lei dos 60 dias)",
+   "pilar": "Saúde",
+   "fio": true,
+   "buscas": [
+    "câncer de mama tratamento demora DF",
+    "\"lei dos 60 dias\" câncer DF",
+    "oncologia fila Secretaria de Saúde DF"
+   ],
+   "exige": [
+    "câncer",
+    "oncolog"
+   ],
+   "exige_tambem": [
+    "@df"
+   ]
+  },
+  {
+   "id": "farmacia-alto-custo",
+   "titulo": "Farmácia de Alto Custo da Asa Sul (fila e plano do TCDF)",
+   "pilar": "Saúde",
+   "fio": true,
+   "buscas": [
+    "\"Farmácia de Alto Custo\" DF fila",
+    "TCDF farmácia alto custo Secretaria de Saúde",
+    "farmacêuticos déficit Secretaria de Saúde DF"
+   ],
+   "exige": [
+    "alto custo",
+    "farmacêutic",
+    "componente especializado"
+   ],
+   "exige_tambem": [
+    "@df"
+   ]
+  },
+  {
+   "id": "hmib-centro-obstetrico",
+   "titulo": "Reforma do Centro Obstétrico do HMIB",
+   "pilar": "Saúde",
+   "fio": true,
+   "buscas": [
+    "HMIB centro obstétrico reforma",
+    "Hospital Materno Infantil de Brasília obra",
+    "HMIB partos"
+   ],
+   "exige": [
+    "hmib",
+    "materno infantil",
+    "materno-infantil"
+   ],
+   "exige_tambem": [
+    "obstétric",
+    "reforma",
+    "obra",
+    "parto"
+   ]
+  },
+  {
+   "id": "pigl-hmib",
+   "titulo": "Atendimento a vítimas de violência sexual no HMIB (PIGL)",
+   "pilar": "Mulheres",
+   "fio": true,
+   "buscas": [
+    "PIGL HMIB",
+    "aborto legal DF Secretaria de Saúde",
+    "vítimas de violência sexual atendimento HMIB"
+   ],
+   "exige": [
+    "pigl",
+    "aborto legal",
+    "interrupção gestacional",
+    "violência sexual"
+   ],
+   "exige_tambem": [
+    "@df",
+    "hmib"
+   ]
+  },
+  {
+   "id": "igesdf-revisao",
+   "titulo": "Choque de gestão na saúde: revisão do IgesDF",
+   "pilar": "Saúde",
+   "fio": true,
+   "buscas": [
+    "IgesDF choque de gestão",
+    "Iges-DF revisão consultoria universidade",
+    "IgesDF cargos corte Celina"
+   ],
+   "exige": [
+    "iges"
+   ],
+   "exige_tambem": [
+    "gestão",
+    "revisão",
+    "consultoria",
+    "universidade",
+    "corte",
+    "cargos",
+    "reestrutura"
+   ]
+  },
+  {
+   "id": "pm-porte-arma",
+   "titulo": "Porte de arma por PM de folga (caso da van na Asa Sul)",
+   "pilar": "Mulheres",
+   "fio": true,
+   "buscas": [
+    "PM van Asa Sul mulher morta",
+    "porte de arma PM folga DF",
+    "PMDF policial preso van 302 Sul"
+   ],
+   "exige": [
+    "pm",
+    "policial",
+    "pmdf"
+   ],
+   "exige_tambem": [
+    "van",
+    "porte",
+    "folga",
+    "asa sul",
+    "feminicid"
+   ]
+  }
+ ]
+}

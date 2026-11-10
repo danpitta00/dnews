@@ -1,0 +1,49 @@
+{
+  "_leia": "Configuração do Radar de Agenda Legislativa do D.News. Edite à vontade: palavras por pauta, sinais de alto impacto, projetos acompanhados. Palavras curtas (até 4 letras) só casam como palavra inteira. Depois de editar, rode: python painel_rotinas\\agenda.py",
+  "janela_dias": 8,
+  "pautas": {
+    "Saúde": {
+      "prioridade": "Alta",
+      "palavras": ["saúde", "sus", "sistema único de saúde", "atenção básica", "atenção primária", "hospital", "hospitais", "upa", "upas", "unidade básica", "ubs", "pronto-socorro", "urgência e emergência", "samu", "saúde da mulher", "saúde mental", "caps", "medicamento", "medicamentos", "farmácia", "plano de saúde", "planos de saúde", "vigilância sanitária", "anvisa", "enfermagem", "enfermeiro", "enfermeira", "técnico de enfermagem", "médico", "médicos", "profissionais de saúde", "agente comunitário de saúde", "piso salarial da enfermagem", "financiamento da saúde", "fundo de saúde", "vacina", "vacinação", "imunização", "câncer", "oncologia", "oncológico", "doenças raras", "autismo", "tea", "gestante", "parto", "obstetrícia", "pré-natal", "aleitamento", "neonatal", "maternidade", "doula", "doulas", "dengue", "epidemia", "iges", "igesdf", "hemocentro", "sangue", "transplante", "cirurgia", "cirurgias", "fila de espera", "regulação em saúde", "complexo regulador","residência médica", "residência multiprofissional", "telessaúde", "prontuário"]
+    },
+    "Mulheres": {
+      "prioridade": "Média",
+      "palavras": ["mulher", "mulheres", "feminicídio", "violência contra a mulher", "violência doméstica", "maria da penha", "medida protetiva", "igualdade de gênero", "equidade de gênero", "gênero", "misoginia", "assédio", "estupro", "dignidade menstrual", "mães", "mãe atípica", "mães atípicas", "maternidade", "lactante", "creche", "empreendedorismo feminino", "casa da mulher brasileira", "procuradoria da mulher"]
+    },
+    "Esporte": {
+      "prioridade": "Média",
+      "palavras": ["esporte", "esportes", "esportivo", "esportiva", "desporto", "lazer", "atleta", "atletas", "paralímpico", "paratleta", "bolsa atleta", "ginásio", "quadra", "quadras", "estádio", "praça de esportes", "atividade física", "olimpíada", "jogos escolares"]
+    },
+    "Concursos": {
+      "prioridade": "Média",
+      "palavras": ["concurso público", "concursos públicos", "concurso", "nomeação", "nomeações", "servidor público", "servidores públicos", "servidor", "servidores", "carreira", "carreiras", "plano de carreira", "cargos efetivos", "cargo efetivo", "cadastro reserva", "reestruturação de carreira", "reajuste", "recomposição salarial", "edital"]
+    },
+    "Melhor idade e Guará": {
+      "prioridade": "Média",
+      "palavras": ["pessoa idosa", "pessoas idosas", "idoso", "idosos", "idosa", "envelhecimento", "melhor idade", "terceira idade", "estatuto da pessoa idosa", "aposentado", "aposentados", "longevidade", "cuidador", "cuidadores", "guará", "guará i", "guará ii", "ra x", "região administrativa do guará", "park way", "lúcio costa", "polo de modas"]
+    }
+  },
+  "alto_impacto": {
+    "_leia": "Temas fora das pautas acima só entram com pelo menos um sinal: regime de urgência, votação em plenário, termos de alta repercussão ou impacto direto no DF.",
+    "urgencia": ["urgência", "urgente", "regime de urgência", "art. 155", "art. 336", "art. 338"],
+    "repercussao": ["reforma tributária", "orçamento", "lei orçamentária", "ldo", "loa", "diretrizes orçamentárias", "pec", "proposta de emenda à constituição", "lei orgânica", "medida provisória", "imposto de renda", "salário mínimo", "segurança pública", "transporte público", "tarifa", "passe livre", "fundo constitucional", "fcdf"],
+    "df": ["distrito federal", "brasília", " df ", "-df", "gdf", "fcdf", "fundo constitucional do distrito federal", "entorno"],
+    "so_plenario_cldf": true
+  },
+  "dayse": {
+    "nomes": ["dayse amarilio", "dayse amarílio", "deputada dayse", "dep. dayse"],
+    "projetos_acompanhados": ["lei 7.934", "lei nº 7.934", "7934", "pl 2175/2026", "pl 2.175/2026", "2.175, de 2026", "pec 19", "lei 7.704", "piso da enfermagem", "piso salarial da enfermagem"]
+  },
+  "rebaixar_ementas": ["concede o título", "título de cidadão", "título de cidadã", "parabeniza", "homenageia", "moção de louvor", "voto de louvor", "denomina "],
+  "cldf_tipos_ignorados": ["Apresentação", "Exposição", "Visita", "Visita Técnica"],
+  "ocultar_autores": {
+    "_leia": "Regra da casa (CLAUDE.md): nunca citar Jorge Viana. Autores com estes nomes aparecem como 'outro parlamentar'.",
+    "nomes": ["jorge viana", "jorge vianna"]
+  },
+  "saidas": {
+    "_leia": "Canais de entrega do boletim. 'arquivo' grava rotinas/agenda/AAAA-MM-DD.md e .json (lido pelo painel). 'painel' coloca os alertas no sino/sirene do D.News. 'email' ainda não configurado: precisa de conta de envio (SMTP) definida pela equipe.",
+    "arquivo": true,
+    "painel": true,
+    "email": false
+  }
+}

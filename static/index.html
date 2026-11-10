@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>D.News</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/core@1.0.0/dist/css/tabler.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="app.css?v=20261109g">
+</head>
+<body>
+<header class="topo">
+  <div class="topo-in">
+    <div class="marca"><i class="ti ti-radar-2"></i><span>D.News</span><small>radar de notícias da Dayse</small></div>
+    <div class="dias">
+      <button class="btn-topo" id="dia-ant" title="Dia anterior"><i class="ti ti-chevron-left"></i></button>
+      <select id="sel-dia"></select>
+      <button class="btn-topo" id="dia-prox" title="Próximo dia"><i class="ti ti-chevron-right"></i></button>
+      <button class="btn-topo" id="btn-hoje">Hoje</button>
+    </div>
+    <div class="topo-dir">
+      <span id="coleta-info" class="coleta-info"></span>
+      <button class="btn-topo" id="btn-exportar" title="Exportar os hot points do dia para o WhatsApp"><i class="ti ti-brand-whatsapp"></i><span class="d-none d-md-inline"> Exportar</span></button>
+      <button class="btn-topo sino" id="btn-sino" title="Alertas de pauta quente"><i class="ti ti-bell"></i><b id="n-alertas"></b></button>
+      <button class="btn-topo" id="btn-coletar" title="Buscar notícias agora"><i class="ti ti-refresh"></i><span class="d-none d-md-inline"> Atualizar</span></button>
+      <button class="btn-topo" id="btn-tema" title="Claro/escuro"><i class="ti ti-moon"></i></button>
+    </div>
+  </div>
+  <nav class="abas" id="abas">
+    <a data-aba="geral" class="on"><i class="ti ti-layout-dashboard"></i> Visão geral</a>
+    <a data-aba="hotmap"><i class="ti ti-map-pin-bolt"></i> Hot Map <b id="n-hot"></b></a>
+    <a data-aba="trilhas"><i class="ti ti-timeline-event"></i> Trilhas <b id="n-trilhas"></b></a>
+    <a data-aba="agenda"><i class="ti ti-building-bank"></i> Agenda legislativa <b id="n-agenda"></b></a>
+    <a data-aba="radar"><i class="ti ti-target-arrow"></i> Radar <b id="n-radar"></b></a>
+    <a data-aba="noticias"><i class="ti ti-news"></i> Notícias ao vivo <b id="n-noticias"></b></a>
+    <a data-aba="videos"><i class="ti ti-player-play"></i> Vídeos <b id="n-videos"></b></a>
+    <a data-aba="prazos"><i class="ti ti-calendar-due"></i> Prazos <b id="n-prazos"></b></a>
+    <a data-aba="redes"><i class="ti ti-brand-instagram"></i> Redes</a>
+    <a data-aba="relatorios"><i class="ti ti-file-text"></i> Relatórios</a>
+  </nav>
+  <div class="faixa-alerta" id="faixa-alerta" hidden>
+    <div class="fa-in">
+      <div class="fa-ic"><i class="ti ti-flame"></i></div>
+      <div class="fa-txt" id="fa-txt"></div>
+      <div class="fa-bt">
+        <button class="bt-fa" id="fa-mapa"><i class="ti ti-map-pin-bolt"></i> Ver no Hot Map</button>
+        <button class="bt-fa forte" id="fa-visto"><i class="ti ti-check"></i> Visto</button>
+      </div>
+    </div>
+  </div>
+  <div class="painel-alertas" id="painel-alertas" hidden></div>
+</header>
+
+<main class="conteudo">
+  <div id="aviso" class="alert d-none"></div>
+
+  <!-- VISÃO GERAL -->
+  <section data-painel="geral">
+    <div class="kpis" id="kpis"></div>
+    <div class="resumo" id="resumo"></div>
+    <h2 class="sec"><i class="ti ti-flame"></i> Prioridades do dia</h2>
+    <div class="grade-destaque" id="destaques"></div>
+    <div class="duas-col">
+      <div>
+        <h2 class="sec"><i class="ti ti-target-arrow"></i> Restante do radar</h2>
+        <div id="radar-compacto" class="lista-compacta"></div>
+      </div>
+      <aside>
+        <h2 class="sec"><i class="ti ti-calendar-due"></i> Próximos 7 dias</h2>
+        <div id="prazos-mini" class="caixa"></div>
+        <h2 class="sec"><i class="ti ti-user-check"></i> Menções à Dayse</h2>
+        <div id="mencoes" class="caixa"></div>
+        <h2 class="sec"><i class="ti ti-news"></i> Na imprensa agora</h2>
+        <div id="imprensa-mini" class="caixa"></div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- HOT MAP -->
+  <section data-painel="hotmap" hidden>
+    <div class="hm-barra">
+      <div class="hm-janela">
+        <span>Mostrar os últimos</span>
+        <div class="seg" id="hm-dias"><a data-d="3">3 dias</a><a data-d="5" class="on">5 dias</a><a data-d="7">7 dias</a><a data-d="15">15 dias</a></div>
+      </div>
+      <div class="chips" id="hm-origem"></div>
+      <button class="bt-sec" id="hm-exportar"><i class="ti ti-brand-whatsapp"></i> Exportar p/ WhatsApp</button>
+      <button class="bt-prim" id="hm-novo"><i class="ti ti-map-pin-plus"></i> Marcar pauta / denúncia</button>
+    </div>
+    <div class="hm-grade">
+      <div class="hm-mapa-caixa">
+        <div id="hm-mapa"></div>
+        <div class="hm-legenda">
+          <div class="hm-escala"></div>
+          <div class="hm-escala-rot"><span>frio</span><span>morno</span><span>quente</span></div>
+          <div class="hm-nota" id="hm-nota"></div>
+        </div>
+      </div>
+      <aside class="hm-lado">
+        <h2 class="sec"><i class="ti ti-temperature"></i> Lugares mais quentes</h2>
+        <div id="hm-ranking"></div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- TRILHAS -->
+  <section data-painel="trilhas" hidden>
+    <p class="explica">Cada assunto vira uma trilha: tudo que os portais publicaram, em ordem cronológica. Bolha maior = mais notícia; cor = temperatura dos últimos 7 dias. <b>⏳</b> marca fio parado (dias sem notícia), bom para cobrança.</p>
+    <div class="nuvem" id="nuvem"></div>
+    <div class="tr-grade">
+      <div id="tr-lista" class="tr-lista"></div>
+      <div id="tr-detalhe" class="tr-detalhe caixa"><p class="vazio">Escolha uma trilha.</p></div>
+    </div>
+  </section>
+
+  <!-- AGENDA LEGISLATIVA -->
+  <section data-painel="agenda" hidden>
+    <div class="cal-barra">
+      <div class="cal-nav">
+        <button class="cal-bt" id="cal-hoje">Hoje</button>
+        <button class="cal-bt redondo" id="cal-ant" title="Semana anterior"><i class="ti ti-chevron-left"></i></button>
+        <button class="cal-bt redondo" id="cal-prox" title="Próxima semana"><i class="ti ti-chevron-right"></i></button>
+        <h2 id="cal-titulo"></h2>
+      </div>
+      <div class="cal-dir">
+        <span class="cal-atual" id="cal-atual"></span>
+        <select id="ag-dia" title="Boletim de outro dia"></select>
+        <button class="bt-sec" id="ag-checar"><i class="ti ti-refresh"></i> Checar agora</button>
+      </div>
+    </div>
+    <div class="cal-filtros">
+      <div class="chips" id="ag-casa"></div>
+      <div class="chips" id="ag-pauta"></div>
+      <div class="chips" id="ag-prio"></div>
+    </div>
+    <div id="ag-alertas"></div>
+    <div id="ag-avisos"></div>
+    <div class="cal-dias-mob" id="cal-dias-mob"></div>
+    <div class="cal" id="cal"></div>
+    <div class="cal-rodape">
+      <details class="caixa"><summary><i class="ti ti-list-details"></i> Resumo da checagem</summary><ul id="ag-resumo"></ul></details>
+      <details class="caixa"><summary><i class="ti ti-database"></i> Fontes consultadas</summary><div id="ag-fontes"></div></details>
+      <p class="explica"><b>✅</b> pauta publicada · <b>⏳</b> expectativa (agenda marcada, pauta ainda não publicada) · <b>🆕</b> novo desde a última checagem · <b>⭐</b> Dayse. Checagem automática às 7h e às 17h (fim de semana, só de manhã).</p>
+    </div>
+  </section>
+
+  <aside class="cal-gaveta" id="cal-gaveta" hidden>
+    <div class="cal-gaveta-fundo" data-fechar-gaveta></div>
+    <div class="cal-gaveta-caixa">
+      <button class="modal-x claro" data-fechar-gaveta><i class="ti ti-x"></i></button>
+      <div id="cal-gaveta-conteudo"></div>
+    </div>
+  </aside>
+
+  <!-- RADAR CURADO -->
+  <section data-painel="radar" hidden>
+    <div class="barra-filtros">
+      <div class="busca"><i class="ti ti-search"></i><input id="f-busca" placeholder="Buscar no radar..."></div>
+      <select id="f-escopo"><option value="dia">Este dia</option><option value="todos">Todos os dias</option></select>
+      <select id="f-status">
+        <option value="abertos">Abertos</option><option value="novo">Novos</option><option value="encaminhado">Encaminhados</option>
+        <option value="feito">Feitos</option><option value="descartado">Descartados</option><option value="todos">Todos</option>
+      </select>
+    </div>
+    <div class="chips" id="f-urgencia"></div>
+    <div class="chips" id="f-tipo"></div>
+    <div class="chips" id="f-pilar"></div>
+    <div id="lista-radar"></div>
+  </section>
+
+  <!-- NOTÍCIAS AO VIVO -->
+  <section data-painel="noticias" hidden>
+    <p class="explica">Coletadas sozinhas a cada hora (Google News, Metrópoles, Correio, g1 DF, Jornal de Brasília, Agência Brasil, YouTube), filtradas pelos temas da Dayse. Ainda não passaram pela curadoria do radar.</p>
+    <div class="barra-filtros">
+      <div class="busca"><i class="ti ti-search"></i><input id="n-busca" placeholder="Buscar nas notícias..."></div>
+      <select id="n-ordem"><option value="recente">Mais recentes</option><option value="repercussao">Mais repercussão</option></select>
+    </div>
+    <div class="chips" id="n-pilar"></div>
+    <div class="grade-noticias" id="lista-noticias"></div>
+  </section>
+
+  <!-- VÍDEOS -->
+  <section data-painel="videos" hidden>
+    <p class="explica">Vídeos das matérias, das reportagens e do canal da Dayse. Clique para assistir aqui mesmo.</p>
+    <div class="grade-videos" id="lista-videos"></div>
+  </section>
+
+  <!-- PRAZOS -->
+  <section data-painel="prazos" hidden>
+    <p class="explica">Tudo que tem data (fios em acompanhamento, itens do radar e calendário), do mais urgente ao mais distante.</p>
+    <div id="lista-prazos" class="linha-tempo"></div>
+  </section>
+
+  <!-- REDES -->
+  <section data-painel="redes" hidden><div id="redes"></div></section>
+
+  <!-- RELATÓRIOS -->
+  <section data-painel="relatorios" hidden>
+    <div class="sub-abas" id="sub-abas">
+      <a data-rel="relatorio" class="on">Radar completo</a><a data-rel="fios">Fios</a><a data-rel="pauta">Pauta</a><a data-rel="drive">Drive</a><a data-rel="saude">Conexões</a>
+    </div>
+    <div class="caixa md" id="md-rel"></div>
+  </section>
+</main>
+
+<div class="modal-video" id="modal-video" hidden>
+  <div class="modal-fundo" data-fechar></div>
+  <div class="modal-caixa">
+    <button class="modal-x" data-fechar><i class="ti ti-x"></i></button>
+    <div class="ratio ratio-16x9" id="modal-player"></div>
+    <div class="modal-titulo" id="modal-titulo"></div>
+  </div>
+</div>
+
+<div class="modal-video" id="modal-pauta" hidden>
+  <div class="modal-fundo" data-fechar-pauta></div>
+  <form class="modal-form" id="form-pauta" autocomplete="off">
+    <button type="button" class="modal-x claro" data-fechar-pauta><i class="ti ti-x"></i></button>
+    <h3><i class="ti ti-map-pin-plus"></i> Marcar pauta no Hot Map</h3>
+    <p class="explica">Denúncia, relato da equipe ou qualquer pauta com lugar. Ela entra no mapa e esfria sozinha com o tempo.</p>
+    <label>O que aconteceu<input name="titulo" required maxlength="200" placeholder="Ex.: Denúncia de câmeras no repouso da enfermagem"></label>
+    <label>Onde<input name="local" list="hm-lugares" required placeholder="Comece a digitar: Hospital, UPA, cidade..."></label>
+    <datalist id="hm-lugares"></datalist>
+    <div class="form-2">
+      <label>Quando<input type="date" name="data" required></label>
+      <label>Pilar<select name="pilar"><option>Saúde</option><option>Guará</option><option>Mulheres</option><option>Transversais</option><option>Política e orçamento</option></select></label>
+    </div>
+    <label>Quão quente é <b id="int-rot">4 · quente</b>
+      <input type="range" name="intensidade" min="1" max="5" value="4" id="int-range">
+      <div class="int-escala"><span>1 frio</span><span>3 morno</span><span>5 pegando fogo</span></div>
+    </label>
+    <div class="form-2">
+      <label>Tipo<select name="tipo"><option>Fiscalização</option><option>Cobrança</option><option>Defesa/risco</option><option>Conteúdo</option><option>Ação legislativa</option></select></label>
+      <label>Link (opcional)<input name="link" type="url" placeholder="https://..."></label>
+    </div>
+    <label>Nota (opcional)<textarea name="nota" rows="2" maxlength="500" placeholder="Quem relatou, o que falta confirmar..."></textarea></label>
+    <div class="form-erro" id="form-erro"></div>
+    <button class="bt-prim" type="submit"><i class="ti ti-check"></i> Marcar no mapa</button>
+  </form>
+</div>
+
+<div class="modal-video" id="modal-exportar" hidden>
+  <div class="modal-fundo" data-fechar-exportar></div>
+  <div class="modal-form modal-exp">
+    <button type="button" class="modal-x claro" data-fechar-exportar><i class="ti ti-x"></i></button>
+    <h3><i class="ti ti-brand-whatsapp"></i> Hot points do dia para o WhatsApp</h3>
+    <p class="explica">Marque as pautas que vão para os grupos das coordenações. A mensagem se monta sozinha embaixo e dá para editar antes de copiar.</p>
+    <div class="exp-lista" id="exp-lista"></div>
+    <label class="exp-check"><input type="checkbox" id="exp-links" checked> Incluir os links das matérias</label>
+    <label>Mensagem<textarea id="exp-texto" rows="12"></textarea></label>
+    <div class="exp-bts">
+      <button type="button" class="bt-prim" id="exp-copiar"><i class="ti ti-copy"></i> Copiar mensagem</button>
+      <a class="bt-wpp" id="exp-wpp" target="_blank" rel="noopener"><i class="ti ti-brand-whatsapp"></i> Abrir no WhatsApp</a>
+    </div>
+    <div class="exp-ok" id="exp-ok"></div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+<script src="app.js?v=20261109g"></script>
+</body>
+</html>

@@ -1,0 +1,768 @@
+[
+ {
+  "nome": "Plano Piloto",
+  "tipo": "RA",
+  "apelidos": [
+   "Plano Piloto",
+   "Asa Sul",
+   "Asa Norte",
+   "Esplanada"
+  ],
+  "lat": -15.71837,
+  "lon": -47.99503
+ },
+ {
+  "nome": "Gama",
+  "tipo": "RA",
+  "apelidos": [
+   "Gama"
+  ],
+  "lat": -16.01709,
+  "lon": -48.06531
+ },
+ {
+  "nome": "Taguatinga",
+  "tipo": "RA",
+  "apelidos": [
+   "Taguatinga"
+  ],
+  "lat": -15.83353,
+  "lon": -48.05657
+ },
+ {
+  "nome": "Brazlândia",
+  "tipo": "RA",
+  "apelidos": [
+   "Brazlândia"
+  ],
+  "lat": -15.68089,
+  "lon": -48.19426
+ },
+ {
+  "nome": "Sobradinho",
+  "tipo": "RA",
+  "apelidos": [
+   "Sobradinho"
+  ],
+  "lat": -15.65005,
+  "lon": -47.78484
+ },
+ {
+  "nome": "Sobradinho II",
+  "tipo": "RA",
+  "apelidos": [
+   "Sobradinho II",
+   "Sobradinho 2"
+  ],
+  "lat": -15.64373,
+  "lon": -47.82601
+ },
+ {
+  "nome": "Planaltina",
+  "tipo": "RA",
+  "apelidos": [
+   "Planaltina"
+  ],
+  "lat": -15.61819,
+  "lon": -47.65557
+ },
+ {
+  "nome": "Paranoá",
+  "tipo": "RA",
+  "apelidos": [
+   "Paranoá"
+  ],
+  "lat": -15.77544,
+  "lon": -47.77976
+ },
+ {
+  "nome": "Núcleo Bandeirante",
+  "tipo": "RA",
+  "apelidos": [
+   "Núcleo Bandeirante"
+  ],
+  "lat": -15.87119,
+  "lon": -47.96799
+ },
+ {
+  "nome": "Ceilândia",
+  "tipo": "RA",
+  "apelidos": [
+   "Ceilândia"
+  ],
+  "lat": -15.81734,
+  "lon": -48.10458
+ },
+ {
+  "nome": "Guará",
+  "tipo": "RA",
+  "apelidos": [
+   "Guará",
+   "Guará I",
+   "Guará II",
+   "Guará 2",
+   "Lúcio Costa",
+   "Feira do Guará",
+   "Cave do Guará"
+  ],
+  "lat": -15.82356,
+  "lon": -47.97682
+ },
+ {
+  "nome": "Cruzeiro",
+  "tipo": "RA",
+  "apelidos": [
+   "Cruzeiro Novo",
+   "Cruzeiro Velho",
+   "RA do Cruzeiro"
+  ],
+  "lat": -15.79078,
+  "lon": -47.93744
+ },
+ {
+  "nome": "Samambaia",
+  "tipo": "RA",
+  "apelidos": [
+   "Samambaia"
+  ],
+  "lat": -15.877,
+  "lon": -48.0881
+ },
+ {
+  "nome": "Santa Maria",
+  "tipo": "RA",
+  "apelidos": [
+   "Santa Maria"
+  ],
+  "lat": -16.01712,
+  "lon": -48.01313
+ },
+ {
+  "nome": "São Sebastião",
+  "tipo": "RA",
+  "apelidos": [
+   "São Sebastião"
+  ],
+  "lat": -15.90338,
+  "lon": -47.77177
+ },
+ {
+  "nome": "Recanto das Emas",
+  "tipo": "RA",
+  "apelidos": [
+   "Recanto das Emas"
+  ],
+  "lat": -15.90255,
+  "lon": -48.06078
+ },
+ {
+  "nome": "Lago Sul",
+  "tipo": "RA",
+  "apelidos": [
+   "Lago Sul"
+  ],
+  "lat": -15.83918,
+  "lon": -47.87553
+ },
+ {
+  "nome": "Riacho Fundo",
+  "tipo": "RA",
+  "apelidos": [
+   "Riacho Fundo I",
+   "Riacho Fundo 1"
+  ],
+  "lat": -15.88331,
+  "lon": -48.01748
+ },
+ {
+  "nome": "Riacho Fundo II",
+  "tipo": "RA",
+  "apelidos": [
+   "Riacho Fundo II",
+   "Riacho Fundo 2"
+  ],
+  "lat": -15.90711,
+  "lon": -48.04881
+ },
+ {
+  "nome": "Lago Norte",
+  "tipo": "RA",
+  "apelidos": [
+   "Lago Norte"
+  ],
+  "lat": -15.73424,
+  "lon": -47.86416
+ },
+ {
+  "nome": "Candangolândia",
+  "tipo": "RA",
+  "apelidos": [
+   "Candangolândia"
+  ],
+  "lat": -15.85366,
+  "lon": -47.94938
+ },
+ {
+  "nome": "Águas Claras",
+  "tipo": "RA",
+  "apelidos": [
+   "Águas Claras"
+  ],
+  "lat": -15.84199,
+  "lon": -48.02812
+ },
+ {
+  "nome": "Varjão",
+  "tipo": "RA",
+  "apelidos": [
+   "Varjão"
+  ],
+  "lat": -15.71082,
+  "lon": -47.87633
+ },
+ {
+  "nome": "Park Way",
+  "tipo": "RA",
+  "apelidos": [
+   "Park Way"
+  ],
+  "lat": -15.90274,
+  "lon": -47.96332
+ },
+ {
+  "nome": "Estrutural",
+  "tipo": "RA",
+  "apelidos": [
+   "Estrutural",
+   "SCIA"
+  ],
+  "lat": -15.77891,
+  "lon": -47.9961
+ },
+ {
+  "nome": "Sobradinho/Fercal",
+  "tipo": "RA",
+  "apelidos": [
+   "Fercal"
+  ],
+  "lat": -15.60023,
+  "lon": -47.8716
+ },
+ {
+  "nome": "Jardim Botânico",
+  "tipo": "RA",
+  "apelidos": [
+   "Jardim Botânico"
+  ],
+  "lat": -15.86389,
+  "lon": -47.78852
+ },
+ {
+  "nome": "Itapoã",
+  "tipo": "RA",
+  "apelidos": [
+   "Itapoã"
+  ],
+  "lat": -15.74845,
+  "lon": -47.76969
+ },
+ {
+  "nome": "SIA",
+  "tipo": "RA",
+  "apelidos": [
+   "SIA",
+   "Setor de Indústria e Abastecimento"
+  ],
+  "lat": -15.80618,
+  "lon": -47.95916
+ },
+ {
+  "nome": "Vicente Pires",
+  "tipo": "RA",
+  "apelidos": [
+   "Vicente Pires"
+  ],
+  "lat": -15.81357,
+  "lon": -48.0156
+ },
+ {
+  "nome": "Sol Nascente/Pôr do Sol",
+  "tipo": "RA",
+  "apelidos": [
+   "Sol Nascente",
+   "Pôr do Sol"
+  ],
+  "lat": -15.82426,
+  "lon": -48.15302
+ },
+ {
+  "nome": "Arniqueira",
+  "tipo": "RA",
+  "apelidos": [
+   "Arniqueira",
+   "Arniqueiras"
+  ],
+  "lat": -15.85898,
+  "lon": -48.01223
+ },
+ {
+  "nome": "Sudoeste/Octogonal",
+  "tipo": "RA",
+  "apelidos": [
+   "Sudoeste",
+   "Octogonal"
+  ],
+  "lat": -15.80022,
+  "lon": -47.92439
+ },
+ {
+  "nome": "Arapoanga",
+  "tipo": "RA",
+  "apelidos": [
+   "Arapoanga"
+  ],
+  "lat": -15.64136,
+  "lon": -47.641
+ },
+ {
+  "nome": "Água Quente",
+  "tipo": "RA",
+  "apelidos": [
+   "Água Quente"
+  ],
+  "lat": -15.9419,
+  "lon": -48.23315
+ },
+ {
+  "nome": "Hospital de Base (HBDF)",
+  "tipo": "Hospital",
+  "apelidos": [
+   "Hospital de Base",
+   "HBDF"
+  ],
+  "lat": -15.80033,
+  "lon": -47.88842
+ },
+ {
+  "nome": "Hospital Regional da Asa Norte (HRAN)",
+  "tipo": "Hospital",
+  "apelidos": [
+   "HRAN",
+   "Hospital Regional da Asa Norte"
+  ],
+  "lat": -15.78482,
+  "lon": -47.88284
+ },
+ {
+  "nome": "Hospital Regional de Taguatinga (HRT)",
+  "tipo": "Hospital",
+  "apelidos": [
+   "HRT",
+   "Hospital Regional de Taguatinga"
+  ],
+  "lat": -15.82199,
+  "lon": -48.06937
+ },
+ {
+  "nome": "Hospital Regional de Ceilândia (HRC)",
+  "tipo": "Hospital",
+  "apelidos": [
+   "HRC",
+   "Hospital Regional de Ceilândia"
+  ],
+  "lat": -15.8152,
+  "lon": -48.09599
+ },
+ {
+  "nome": "Hospital Regional do Gama (HRG)",
+  "tipo": "Hospital",
+  "apelidos": [
+   "HRG",
+   "Hospital Regional do Gama"
+  ],
+  "lat": -16.0233,
+  "lon": -48.06945
+ },
+ {
+  "nome": "Hospital Regional do Guará (HRGu)",
+  "tipo": "Hospital",
+  "apelidos": [
+   "HRGu",
+   "Hospital Regional do Guará"
+  ],
+  "lat": -15.81816,
+  "lon": -47.98626
+ },
+ {
+  "nome": "Hospital Materno-Infantil (HMIB)",
+  "tipo": "Hospital",
+  "apelidos": [
+   "HMIB",
+   "Hospital Materno Infantil",
+   "Hospital Materno-Infantil"
+  ],
+  "lat": -15.82446,
+  "lon": -47.89723
+ },
+ {
+  "nome": "Hospital Regional de Sobradinho (HRS)",
+  "tipo": "Hospital",
+  "apelidos": [
+   "HRS",
+   "Hospital Regional de Sobradinho"
+  ],
+  "lat": -15.64842,
+  "lon": -47.79274
+ },
+ {
+  "nome": "Hospital Regional de Planaltina (HRPl)",
+  "tipo": "Hospital",
+  "apelidos": [
+   "HRPl",
+   "Hospital Regional de Planaltina"
+  ],
+  "lat": -15.62478,
+  "lon": -47.65274
+ },
+ {
+  "nome": "Hospital Regional de Santa Maria (HRSM)",
+  "tipo": "Hospital",
+  "apelidos": [
+   "HRSM",
+   "Hospital Regional de Santa Maria"
+  ],
+  "lat": -16.0405,
+  "lon": -48.03641
+ },
+ {
+  "nome": "Hospital Regional de Samambaia (HRSam)",
+  "tipo": "Hospital",
+  "apelidos": [
+   "HRSam",
+   "Hospital Regional de Samambaia"
+  ],
+  "lat": -15.8534,
+  "lon": -48.07344
+ },
+ {
+  "nome": "Hospital Regional de Brazlândia (HRBz)",
+  "tipo": "Hospital",
+  "apelidos": [
+   "HRBz",
+   "Hospital Regional de Brazlândia"
+  ],
+  "lat": -15.67508,
+  "lon": -48.20367
+ },
+ {
+  "nome": "Hospital Regional do Paranoá (HRPa)",
+  "tipo": "Hospital",
+  "apelidos": [
+   "HRPa",
+   "Hospital Regional do Paranoá"
+  ],
+  "lat": -15.77544,
+  "lon": -47.77976,
+  "aprox": "Paranoá"
+ },
+ {
+  "nome": "Hospital da Criança de Brasília",
+  "tipo": "Hospital",
+  "apelidos": [
+   "Hospital da Criança",
+   "HCB"
+  ],
+  "lat": -15.71837,
+  "lon": -47.99503,
+  "aprox": "Plano Piloto"
+ },
+ {
+  "nome": "Hospital Universitário de Brasília (HUB)",
+  "tipo": "Hospital",
+  "apelidos": [
+   "HUB",
+   "Hospital Universitário de Brasília"
+  ],
+  "lat": -15.77153,
+  "lon": -47.87359
+ },
+ {
+  "nome": "Hospital São Vicente de Paulo (HSVP)",
+  "tipo": "Hospital",
+  "apelidos": [
+   "HSVP",
+   "Hospital São Vicente de Paulo"
+  ],
+  "lat": -15.83674,
+  "lon": -48.06039
+ },
+ {
+  "nome": "Hospital Regional Leste",
+  "tipo": "Hospital",
+  "apelidos": [
+   "Hospital Regional Leste"
+  ],
+  "lat": -15.77544,
+  "lon": -47.77976,
+  "aprox": "Paranoá"
+ },
+ {
+  "nome": "Hospital Santa Marta",
+  "tipo": "Hospital",
+  "apelidos": [
+   "Santa Marta"
+  ],
+  "lat": -15.86056,
+  "lon": -48.04154
+ },
+ {
+  "nome": "Hospital Anchieta",
+  "tipo": "Hospital",
+  "apelidos": [
+   "Hospital Anchieta"
+  ],
+  "lat": -15.8241,
+  "lon": -48.06732
+ },
+ {
+  "nome": "Hospital Santa Lúcia",
+  "tipo": "Hospital",
+  "apelidos": [
+   "Santa Lúcia"
+  ],
+  "lat": -15.82812,
+  "lon": -47.93006
+ },
+ {
+  "nome": "Hospital Brasília",
+  "tipo": "Hospital",
+  "apelidos": [
+   "Hospital Brasília"
+  ],
+  "lat": -15.84566,
+  "lon": -47.88229
+ },
+ {
+  "nome": "Hospital Home",
+  "tipo": "Hospital",
+  "apelidos": [
+   "Hospital Home"
+  ],
+  "lat": -15.83437,
+  "lon": -47.91081
+ },
+ {
+  "nome": "Hospital Daher",
+  "tipo": "Hospital",
+  "apelidos": [
+   "Hospital Daher"
+  ],
+  "lat": -15.8415,
+  "lon": -47.88556
+ },
+ {
+  "nome": "UPA Ceilândia",
+  "tipo": "UPA",
+  "apelidos": [
+   "UPA de Ceilândia",
+   "UPA Ceilândia",
+   "UPA da Ceilândia"
+  ],
+  "lat": -15.82522,
+  "lon": -48.12108
+ },
+ {
+  "nome": "UPA Samambaia",
+  "tipo": "UPA",
+  "apelidos": [
+   "UPA de Samambaia",
+   "UPA Samambaia"
+  ],
+  "lat": -15.88385,
+  "lon": -48.09957
+ },
+ {
+  "nome": "UPA Núcleo Bandeirante",
+  "tipo": "UPA",
+  "apelidos": [
+   "UPA do Núcleo Bandeirante",
+   "UPA Núcleo Bandeirante"
+  ],
+  "lat": -15.87609,
+  "lon": -47.98197
+ },
+ {
+  "nome": "UPA Recanto das Emas",
+  "tipo": "UPA",
+  "apelidos": [
+   "UPA do Recanto das Emas",
+   "UPA Recanto"
+  ],
+  "lat": -15.91139,
+  "lon": -48.05763
+ },
+ {
+  "nome": "UPA São Sebastião",
+  "tipo": "UPA",
+  "apelidos": [
+   "UPA de São Sebastião",
+   "UPA São Sebastião"
+  ],
+  "lat": -15.90338,
+  "lon": -47.77177,
+  "aprox": "São Sebastião"
+ },
+ {
+  "nome": "UPA Sobradinho",
+  "tipo": "UPA",
+  "apelidos": [
+   "UPA de Sobradinho",
+   "UPA Sobradinho"
+  ],
+  "lat": -15.64056,
+  "lon": -47.82027
+ },
+ {
+  "nome": "UPA Santa Maria",
+  "tipo": "UPA",
+  "apelidos": [
+   "UPA de Santa Maria",
+   "UPA Santa Maria"
+  ],
+  "lat": -16.01712,
+  "lon": -48.01313,
+  "aprox": "Santa Maria"
+ },
+ {
+  "nome": "UPA Gama",
+  "tipo": "UPA",
+  "apelidos": [
+   "UPA do Gama",
+   "UPA Gama"
+  ],
+  "lat": -16.01479,
+  "lon": -48.05401
+ },
+ {
+  "nome": "UPA Planaltina",
+  "tipo": "UPA",
+  "apelidos": [
+   "UPA de Planaltina",
+   "UPA Planaltina"
+  ],
+  "lat": -15.61616,
+  "lon": -47.69047
+ },
+ {
+  "nome": "UPA Paranoá",
+  "tipo": "UPA",
+  "apelidos": [
+   "UPA do Paranoá",
+   "UPA Paranoá"
+  ],
+  "lat": -15.76978,
+  "lon": -47.78511
+ },
+ {
+  "nome": "UPA Riacho Fundo II",
+  "tipo": "UPA",
+  "apelidos": [
+   "UPA do Riacho Fundo",
+   "UPA Riacho Fundo"
+  ],
+  "lat": -15.9,
+  "lon": -48.03998
+ },
+ {
+  "nome": "UPA Brazlândia",
+  "tipo": "UPA",
+  "apelidos": [
+   "UPA de Brazlândia",
+   "UPA Brazlândia"
+  ],
+  "lat": -15.66529,
+  "lon": -48.19802
+ },
+ {
+  "nome": "UPA Vicente Pires",
+  "tipo": "UPA",
+  "apelidos": [
+   "UPA de Vicente Pires",
+   "UPA Vicente Pires"
+  ],
+  "lat": -15.79756,
+  "lon": -48.0226
+ },
+ {
+  "nome": "UPA do Guará (obra)",
+  "tipo": "UPA",
+  "apelidos": [
+   "UPA do Guará",
+   "UPA Guará"
+  ],
+  "lat": -15.82794,
+  "lon": -47.98215
+ },
+ {
+  "nome": "CLDF",
+  "tipo": "Órgão",
+  "apelidos": [
+   "CLDF",
+   "Câmara Legislativa"
+  ],
+  "lat": -15.78402,
+  "lon": -47.90802,
+  "aprox": "Palácio do Buriti (GDF)"
+ },
+ {
+  "nome": "Palácio do Buriti (GDF)",
+  "tipo": "Órgão",
+  "apelidos": [
+   "Buriti",
+   "Palácio do Buriti"
+  ],
+  "lat": -15.78402,
+  "lon": -47.90802
+ },
+ {
+  "nome": "Secretaria de Saúde (SES-DF)",
+  "tipo": "Órgão",
+  "apelidos": [
+   "SES-DF",
+   "Secretaria de Saúde"
+  ],
+  "lat": -15.71837,
+  "lon": -47.99503,
+  "aprox": "Plano Piloto"
+ },
+ {
+  "nome": "TCDF",
+  "tipo": "Órgão",
+  "apelidos": [
+   "TCDF",
+   "Tribunal de Contas do DF"
+  ],
+  "lat": -15.78425,
+  "lon": -47.90657
+ },
+ {
+  "nome": "MPDFT",
+  "tipo": "Órgão",
+  "apelidos": [
+   "MPDFT",
+   "Ministério Público do DF"
+  ],
+  "lat": -15.78792,
+  "lon": -47.90768
+ },
+ {
+  "nome": "Administração Regional do Guará",
+  "tipo": "Órgão",
+  "apelidos": [
+   "Administração Regional do Guará",
+   "Administração do Guará"
+  ],
+  "lat": -15.82523,
+  "lon": -47.97567
+ }
+]
